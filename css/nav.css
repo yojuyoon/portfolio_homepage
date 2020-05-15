@@ -1,0 +1,30 @@
+.nav__top{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: #FF4200 1.5px solid;
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: inset 0px 9px 18px -8px rgba(163,163,163,0.39);
+
+
+}
+
+.nav__top .nav__menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__title a:hover {
+    color: #FF4200 ;
+}
+.nav__menu a:hover {
+    color:  #FF4200 ;
+}
