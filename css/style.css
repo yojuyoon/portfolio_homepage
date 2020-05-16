@@ -1,101 +1,109 @@
 @import "nav.css";
 @import "reset.css";
 @import "work.css";
+@import "info.css";
+@import "mobile.css";
 
-*{
-    box-sizing: border-box;
-    list-style: none;
+* {
+  box-sizing: border-box;
+  list-style: none;
 }
 
-a{
-    color: rgb(27, 27, 27);
-    text-decoration: none;
-    cursor: pointer;
+a {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-body{
-    font-family: 'night still comes';
-    display: flex;
+body {
+  font-family: "night still comes";
+  display: flex;
 }
 
-.nav__top{
-    width: 100%;
-    height: 70px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 25px;
-    font-style: italic;
-    border-bottom: #FF4200 1px solid;
-    position: fixed;
-    background-color: white;
-    overflow: hidden;
-    z-index: 2;
-    box-shadow: inset 0px 9px 18px -8px rgba(163,163,163,0.39);
-
+.nav__top {
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-style: italic;
+  border-bottom: #ff4200 1px solid;
+  position: fixed;
+  background-color: white;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: inset 0px 9px 18px -8px rgba(163, 163, 163, 0.39);
 }
 
-.nav__top .nav__menu{
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
+.nav__top .nav__menu {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.main__container{
-        width: 100%;
-        margin-top: 70px;
-        position: relative;
+.main__container {
+  width: 100%;
+  margin-top: 70px;
+  position: relative;
 }
 
-.main__side{
-    width: 30%;
-    height: 100%;
-    float: left;
-    position: absolute;
-    border-right: #FF4200 1px solid;
-    font-size: 30px;
-    font-style: italic;
-
-
+.main__side {
+  width: 30%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  border-right: #ff4200 1px solid;
+  font-size: 30px;
+  font-style: italic;
 }
-.main__side{
-    padding: 10px;
-    font-size: 30px;
-    font-style: normal;
-     color: rgb(85, 85, 85);
-     position: fixed;
-
+.main__side {
+  padding: 10px;
+  font-size: 30px;
+  font-style: normal;
+  color: rgb(85, 85, 85);
+  position: fixed;
 }
 
-.nav__side-footer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: fixed;
-    bottom: 70px;
-    color: rgb(85, 85, 85);
+.nav__side-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 70px;
+  color: rgb(85, 85, 85);
 }
-.nav__side-text span{
-    font-size: 20px;
-}
-
-.main__contents{
-    width: 70%;
-    height: 1200px;
-    margin-left:30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:white;
+.nav__side-text span {
+  font-size: 20px;
 }
 
-
-.main__contents .main__contents-text{
-    color : rgb(27, 27, 27);
-    font-size: 30px;
-    font-style: italic;
+.main__contents {
+  width: 70%;
+  height: 900px;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
+.main__contents .main__contents-text {
+  color: rgb(27, 27, 27);
+  font-size: 30px;
+  font-style: italic;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.8s ease-in-out;
+}

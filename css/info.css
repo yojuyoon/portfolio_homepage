@@ -1,0 +1,9 @@
+.info__contents-text {
+  width: 70%;
+  height: 600px;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
