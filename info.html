@@ -6,28 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c656f22b64.js" crossorigin="anonymous"></script>
     <title>info.</title>
 </head>
 
 <body>
-    <nav class="nav__top">
-        <div class="nav__title">
+    <nav class="navbar">
+        <div class="navbar__title">
             <span><a href="index.html">jiyoung.yoon</a></span>
         </div>
-        <ul class="nav__menu">
+
+        <ul class="navbar__menu">
+            <li><a href="game.html">play.</a></li>
             <li><a href="work.html">work.</a></li>
             <li><a href="info.html">info.</a></li>
-            <li><a href="https://www.instagram.com/yojuyoon/">instagam.</a></li>
         </ul>
+
+        <ul class="navbar__icons">
+            <li><a href="https://www.instagram.com/yojuyoon/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/jiyoung.yoon.75/"><i class="fab fa-facebook"></i></i></a>
+            </li>
+        </ul>
+
+        <a href="#" class="navbar__toggleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+
     </nav>
     <div class="main__container">
+
         <div class="main__side">
-            <div class="nav__side-text">
+            <div class="main__side-text">
                 <div class="js-clock">
                     <h3>0000.00.00.00:00:00</h3>
                     <span>Seoul,KR</span>
                 </div>
-                <div class="nav__side-footer">
+                <div class="main__side-footer">
                     <span>Graphic Design and Media Art</span>
                     <span>© jiyoung yoon</span>
                 </div>
@@ -41,8 +55,9 @@
                     <br>please email me if you need anything.
                 </p>
             </div>
-    </main>
+        </main>
 </body>
 <script src="js/clock.js"></script>
+<script src="js/nav.js"></script>
 
 </html>
