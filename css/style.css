@@ -83,14 +83,45 @@ input:focus{
 
 }
 
+.hello{
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #ff4200;
+  line-height: 40px;
+}
 
 .form
-.greetings{
+.greetings
+{
   display: none;
 }
 
 .showing{
+  text-align: center;
   display: block;
+}
+
+.delete{
+  display: none;
+}
+.js-toDoList{
+  padding-top: 20px;
+}
+
+button {
+  width: 25px;
+  height: 25px;
+  font-size: 15px;
+  color: #ff4200;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.js-toDoForm{
+  padding-top: 20px;
+  text-align: center;
 }
 
 
