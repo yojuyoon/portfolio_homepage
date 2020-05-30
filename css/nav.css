@@ -80,4 +80,7 @@ display: flex;
     .navbar__icons.active{
         display: flex;
     }
+    .navbar__icons{
+        align-items: flex-end;
+    }
 }
