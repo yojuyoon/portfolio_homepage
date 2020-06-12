@@ -1,0 +1,77 @@
+*{
+    font-family: 'night still comes';
+    font-weight: 200;
+}
+
+.calculator-grid{
+    padding: 200px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+
+}
+
+.calculator-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    width: 90%;
+    height: 90%;
+    background-color:  rgba(255,66,1,0.7);
+   box-shadow: 19px 20px 75px -31px rgba(64,64,64,1);
+   color: white;
+   
+}
+
+.calculator-grid > button:hover{
+    background-color: rgba(255,66,1,0.4);
+    color: rgba(19, 20, 49)
+}
+
+.calculator-grid > .count:hover{
+    background-color: rgb(45,45,45, .4);
+}
+
+.calculator-grid .count{
+    color: white;
+    background-color:rgb(45,45,45, .6);
+}
+
+.calculator-grid .C{
+    background-color: rgba(255,66,1,0.8);
+    color: white;
+}
+.calculator-grid .C:hover{
+    background-color: rgba(255,66,1,0.4);
+}
+
+.span-two{
+    grid-column: span 2;
+}
+ 
+.output{
+    grid-column: 1 / -2;
+    background-color: rgb(255,255,255, 0.4);
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+} 
+
+.output .previous-operand{
+    color: rgb(22, 26, 39, .7);
+    font-size: 30px;
+}
+.output .current-operand{
+    color: rgb(22, 26, 39, .9);
+    font-size: 40px;
+}
+

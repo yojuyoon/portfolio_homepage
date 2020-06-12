@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/c656f22b64.js" crossorigin="anonymous"></script>
-    <title>play.</title>
+    <title>calculator.</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         </div>
 
         <ul class="navbar__menu">
-            <li><a href="play.html">play.</a></li>
+            <li><a href="calculator.html">calculator.</a></li>
             <li><a href="work.html">work.</a></li>
             <li><a href="info.html">info.</a></li>
         </ul>
@@ -47,13 +47,32 @@
                 </div>
             </div>
         </div>
-
-        <div class="main__contents">
-            <h2>준비중...</h2>
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <button data-clear class="C">C</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation class="count">+</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation class="count">-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation class="count">*</button>
+            <button data-number class="span-two">0</button>
+            <button data-equals>=</button>
+            <button data-operation class="count">/</button>
         </div>
 
 </body>
 <script src="js/nav.js" defer></script>
 <script src="js/clock.js"></script>
+<script src="js/calculator.js"></script>
 
 </html>

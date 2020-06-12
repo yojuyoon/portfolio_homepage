@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "work.css";
 @import "info.css";
+@import "calculator.css";
 
 * {
   box-sizing: border-box;
@@ -149,11 +150,10 @@ button {
   .main__container{
     height: 100%;
     display: flex;
-        align-items: center;
+    align-items: center;
     justify-content: center;
   }
   .main__contents{
-
     display: flex;
     flex-direction: column;
 
